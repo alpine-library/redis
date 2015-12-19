@@ -2,7 +2,7 @@ FROM alpine:3.2
 MAINTAINER Ekozan
 
 
-ENV REDIS_VERSION 3.0.2-r0
+ENV REDIS_VERSION 3.0.5
 
 
 RUN addgroup redis && adduser -S -G redis redis
